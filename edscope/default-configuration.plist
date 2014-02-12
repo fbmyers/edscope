@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PixelsPerMMPhotoPreview</key>
+	<integer>647</integer>
+	<key>PixelsPerMMVideo</key>
+	<integer>819</integer>
+	<key>PixelsPerMMPhoto</key>
+	<integer>864</integer>
+	<key>CaptureOrientation</key>
+	<string>Portrait</string>
+	<key>Mirroring</key>
+	<string>MirrorY</string>
+	<key>MaximumZoom</key>
+	<integer>10</integer>
+	<key>MinimumZoom</key>
+	<real>0.55</real>
+	<key>FlickrPrivacy</key>
+	<string>FriendsFamily</string>
+	<key>ExposureLockDefault</key>
+	<false/>
+	<key>FocusLockDefault</key>
+	<true/>
+	<key>MaxTextFieldLength</key>
+	<integer>30</integer>
+	<key>PromptForTitle</key>
+	<true/>
+	<key>DateFormat</key>
+	<string>yyyy-MM-dd &apos;at&apos; h:mm a</string>
+	<key>ShowTitlesInThumbnails</key>
+	<true/>
+	<key>ThumbnailSize</key>
+	<integer>160</integer>
+	<key>Magnification</key>
+	<string>40X</string>
+	<key>PictureCount</key>
+	<string>0</string>
+	<key>DefaultGroupName</key>
+	<string></string>
+	<key>DefaultStudentName</key>
+	<string></string>
+	<key>CellScopeID</key>
+	<string>FLETCH-001</string>
+	<key>Location</key>
+	<string>UC Berkeley Fletcher Lab</string>
+	<key>ConfigPassword</key>
+	<string>education</string>
+</dict>
+</plist>

@@ -7,6 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52D7FE41842D0BE00A487EA /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7FDF1842D0BE00A487EA /* UIImage+Alpha.m */; };
+		A52D7FE51842D0BE00A487EA /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7FE11842D0BE00A487EA /* UIImage+Resize.m */; };
+		A52D7FE61842D0BE00A487EA /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7FE31842D0BE00A487EA /* UIImage+RoundedCorner.m */; };
+		A52D7FEF18430A4200A487EA /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7FEE18430A4200A487EA /* CoreDataHelper.m */; };
+		A52D7FF81843CF4700A487EA /* PictureThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7FF71843CF4700A487EA /* PictureThumbnailCell.m */; };
+		A52D7FFB1843D12900A487EA /* PictureThumbnailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D7FFA1843D12900A487EA /* PictureThumbnailHeader.m */; };
+		A52D80371844196300A487EA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52D80361844196300A487EA /* SystemConfiguration.framework */; };
+		A52D803C18441EB000A487EA /* FKAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D803A18441EB000A487EA /* FKAuthViewController.m */; };
+		A52D80461845A6C700A487EA /* Sessions.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D80451845A6C700A487EA /* Sessions.m */; };
+		A5803F2E184D719700A5A604 /* browsebackbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F20184D719700A5A604 /* browsebackbutton@2x.png */; };
+		A5803F2F184D719700A5A604 /* browsebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F21184D719700A5A604 /* browsebutton@2x.png */; };
+		A5803F30184D719700A5A604 /* configbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F22184D719700A5A604 /* configbutton@2x.png */; };
+		A5803F31184D719700A5A604 /* deletebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F23184D719700A5A604 /* deletebutton@2x.png */; };
+		A5803F32184D719700A5A604 /* editbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F24184D719700A5A604 /* editbutton@2x.png */; };
+		A5803F33184D719700A5A604 /* flickricon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F25184D719700A5A604 /* flickricon@2x.png */; };
+		A5803F34184D719700A5A604 /* freezebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F26184D719700A5A604 /* freezebutton@2x.png */; };
+		A5803F35184D719700A5A604 /* groupicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F27184D719700A5A604 /* groupicon@2x.png */; };
+		A5803F36184D719700A5A604 /* homebackbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F28184D719700A5A604 /* homebackbutton@2x.png */; };
+		A5803F37184D719700A5A604 /* idicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F29184D719700A5A604 /* idicon@2x.png */; };
+		A5803F38184D719700A5A604 /* infobutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F2A184D719700A5A604 /* infobutton@2x.png */; };
+		A5803F39184D719700A5A604 /* livebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F2B184D719700A5A604 /* livebutton@2x.png */; };
+		A5803F3A184D719700A5A604 /* snapbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F2C184D719700A5A604 /* snapbutton@2x.png */; };
+		A5803F3B184D719700A5A604 /* uploadbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F2D184D719700A5A604 /* uploadbutton@2x.png */; };
+		A5803F4B184D71AE00A5A604 /* browsebackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F3C184D71AE00A5A604 /* browsebackbutton.png */; };
+		A5803F4C184D71AE00A5A604 /* browsebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F3D184D71AE00A5A604 /* browsebutton.png */; };
+		A5803F4D184D71AE00A5A604 /* configbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F3E184D71AE00A5A604 /* configbutton.png */; };
+		A5803F4E184D71AE00A5A604 /* deletebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F3F184D71AE00A5A604 /* deletebutton.png */; };
+		A5803F4F184D71AE00A5A604 /* editbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F40184D71AE00A5A604 /* editbutton.png */; };
+		A5803F50184D71AE00A5A604 /* flickricon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F41184D71AE00A5A604 /* flickricon.png */; };
+		A5803F51184D71AE00A5A604 /* freezebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F42184D71AE00A5A604 /* freezebutton.png */; };
+		A5803F52184D71AE00A5A604 /* groupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F43184D71AE00A5A604 /* groupicon.png */; };
+		A5803F53184D71AE00A5A604 /* homebackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F44184D71AE00A5A604 /* homebackbutton.png */; };
+		A5803F54184D71AE00A5A604 /* idicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F45184D71AE00A5A604 /* idicon.png */; };
+		A5803F55184D71AE00A5A604 /* infobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F46184D71AE00A5A604 /* infobutton.png */; };
+		A5803F56184D71AE00A5A604 /* livebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F47184D71AE00A5A604 /* livebutton.png */; };
+		A5803F57184D71AE00A5A604 /* snapbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F48184D71AE00A5A604 /* snapbutton.png */; };
+		A5803F58184D71AE00A5A604 /* uploadbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F49184D71AE00A5A604 /* uploadbutton.png */; };
+		A5803F59184D71AE00A5A604 /* usericon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5803F4A184D71AE00A5A604 /* usericon.png */; };
+		A5803F5B184D7AD100A5A604 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = A5803F5A184D7AD100A5A604 /* about.html */; };
+		A5803F5D184D7B6100A5A604 /* cellscope_hawaii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5803F5C184D7B6100A5A604 /* cellscope_hawaii.jpg */; };
+		A5A919D6184FF70200F0163D /* recordbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A919D4184FF70200F0163D /* recordbutton.png */; };
+		A5A919D7184FF70200F0163D /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A919D5184FF70200F0163D /* stopbutton.png */; };
+		A5A919DB184FF72400F0163D /* recordbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A919D9184FF72400F0163D /* recordbutton@2x.png */; };
+		A5A919DC184FF72400F0163D /* stopbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A919DA184FF72400F0163D /* stopbutton@2x.png */; };
+		A5A919E7185005CE00F0163D /* MoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A919E6185005CE00F0163D /* MoviePlayerView.m */; };
+		A5B708421849D7630058645D /* Pictures.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B708411849D7630058645D /* Pictures.m */; };
+		A5B70847184A8E410058645D /* NSMutableDictionary+ImageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B70846184A8E410058645D /* NSMutableDictionary+ImageMetadata.m */; };
+		A5CF19FD187A3A6000C2C2E1 /* CameraScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CF19FC187A3A6000C2C2E1 /* CameraScrollView.m */; };
+		A5EB06F918504C3200229EB8 /* loopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06F618504C3200229EB8 /* loopbutton.png */; };
+		A5EB06FA18504C3200229EB8 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06F718504C3200229EB8 /* pausebutton.png */; };
+		A5EB06FB18504C3200229EB8 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06F818504C3200229EB8 /* playbutton.png */; };
+		A5EB06FF18504C5600229EB8 /* loopbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06FC18504C5600229EB8 /* loopbutton@2x.png */; };
+		A5EB070018504C5600229EB8 /* pausebutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06FD18504C5600229EB8 /* pausebutton@2x.png */; };
+		A5EB070118504C5600229EB8 /* playbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06FE18504C5600229EB8 /* playbutton@2x.png */; };
+		A5EB07031852614C00229EB8 /* uploadicon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB07021852614C00229EB8 /* uploadicon.png */; };
+		A5EB07051852616200229EB8 /* uploadicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB07041852616200229EB8 /* uploadicon@2x.png */; };
+		A5EB070718526F1B00229EB8 /* startbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB070618526F1B00229EB8 /* startbutton@2x.png */; };
+		A5EB070B18526F9D00229EB8 /* startbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB070A18526F9D00229EB8 /* startbutton.png */; };
+		A5F4104B1847FDC1008E497E /* libFlickrKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F410461847FD19008E497E /* libFlickrKit.a */; };
+		A5F410721849521B008E497E /* CellScopeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F410711849521A008E497E /* CellScopeContext.m */; };
+		A5F4107518495DC4008E497E /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F4107418495DC4008E497E /* AboutViewController.m */; };
+		A5F41098184971D7008E497E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F41096184971D7008E497E /* logo.png */; };
+		A5F41099184971D7008E497E /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F41097184971D7008E497E /* logo@2x.png */; };
+		A5F410BB1849897C008E497E /* InfoBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F410BA1849897C008E497E /* InfoBarView.xib */; };
+		A5F410BE18498C21008E497E /* InfoBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F410BD18498C21008E497E /* InfoBarView.m */; };
+		A5F410C11849B967008E497E /* EditPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F410C01849B967008E497E /* EditPictureViewController.m */; };
+		A5F9DECC184E98C50014AD39 /* ScrollBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9DECB184E98C50014AD39 /* ScrollBarView.m */; };
 		A5FD372E183AE42000C67D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD372D183AE42000C67D85 /* Foundation.framework */; };
 		A5FD3730183AE42000C67D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD372F183AE42000C67D85 /* CoreGraphics.framework */; };
 		A5FD3732183AE42000C67D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD3731183AE42000C67D85 /* UIKit.framework */; };
@@ -20,11 +87,37 @@
 		A5FD374D183AE42000C67D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD372D183AE42000C67D85 /* Foundation.framework */; };
 		A5FD374E183AE42000C67D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD3731183AE42000C67D85 /* UIKit.framework */; };
 		A5FD374F183AE42000C67D85 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD3733183AE42000C67D85 /* CoreData.framework */; };
-		A5FD3757183AE42000C67D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5FD3755183AE42000C67D85 /* InfoPlist.strings */; };
-		A5FD3759183AE42000C67D85 /* edscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3758183AE42000C67D85 /* edscopeTests.m */; };
+		A5FD3763183AE44400C67D85 /* edscope-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FD3762183AE44400C67D85 /* edscope-ipad.storyboard */; };
+		A5FD3769183AE62900C67D85 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3768183AE62900C67D85 /* LoginViewController.m */; };
+		A5FD376F183AE67D00C67D85 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD376E183AE67D00C67D85 /* ConfigurationViewController.m */; };
+		A5FD3772183AE69600C67D85 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3771183AE69600C67D85 /* CaptureViewController.m */; };
+		A5FD3775183AE74800C67D85 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3774183AE74800C67D85 /* PhotoBrowserViewController.m */; };
+		A5FD3778183AE7B100C67D85 /* PhotoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3777183AE7B100C67D85 /* PhotoViewViewController.m */; };
+		A5FD3780183B036000C67D85 /* default-configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5FD377F183B036000C67D85 /* default-configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A5F410451847FD19008E497E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F410401847FD18008E497E /* FlickrKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 552D918C1753F8EF00BE3FEA;
+			remoteInfo = FlickrKit;
+		};
+		A5F410471847FD19008E497E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F410401847FD18008E497E /* FlickrKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 552D919A1753F8F000BE3FEA;
+			remoteInfo = FlickrKitTests;
+		};
+		A5F410491847FDB1008E497E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5F410401847FD18008E497E /* FlickrKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 552D918B1753F8EF00BE3FEA;
+			remoteInfo = FlickrKit;
+		};
 		A5FD3750183AE42000C67D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A5FD3722183AE42000C67D85 /* Project object */;
@@ -35,6 +128,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A52D7FDE1842D0BD00A487EA /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		A52D7FDF1842D0BE00A487EA /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		A52D7FE01842D0BE00A487EA /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		A52D7FE11842D0BE00A487EA /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		A52D7FE21842D0BE00A487EA /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		A52D7FE31842D0BE00A487EA /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		A52D7FED18430A4200A487EA /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataHelper.h; path = edscope/CoreDataHelper.h; sourceTree = "<group>"; };
+		A52D7FEE18430A4200A487EA /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataHelper.m; path = edscope/CoreDataHelper.m; sourceTree = "<group>"; };
+		A52D7FF61843CF4700A487EA /* PictureThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureThumbnailCell.h; path = edscope/PictureThumbnailCell.h; sourceTree = "<group>"; };
+		A52D7FF71843CF4700A487EA /* PictureThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureThumbnailCell.m; path = edscope/PictureThumbnailCell.m; sourceTree = "<group>"; };
+		A52D7FF91843D12800A487EA /* PictureThumbnailHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureThumbnailHeader.h; path = edscope/PictureThumbnailHeader.h; sourceTree = "<group>"; };
+		A52D7FFA1843D12900A487EA /* PictureThumbnailHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureThumbnailHeader.m; path = edscope/PictureThumbnailHeader.m; sourceTree = "<group>"; };
+		A52D80361844196300A487EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A52D803918441EB000A487EA /* FKAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FKAuthViewController.h; path = edscope/FKAuthViewController.h; sourceTree = "<group>"; };
+		A52D803A18441EB000A487EA /* FKAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FKAuthViewController.m; path = edscope/FKAuthViewController.m; sourceTree = "<group>"; };
+		A52D80441845A6C700A487EA /* Sessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sessions.h; path = edscope/Sessions.h; sourceTree = "<group>"; };
+		A52D80451845A6C700A487EA /* Sessions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sessions.m; path = edscope/Sessions.m; sourceTree = "<group>"; };
+		A5803F20184D719700A5A604 /* browsebackbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browsebackbutton@2x.png"; sourceTree = "<group>"; };
+		A5803F21184D719700A5A604 /* browsebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browsebutton@2x.png"; sourceTree = "<group>"; };
+		A5803F22184D719700A5A604 /* configbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "configbutton@2x.png"; sourceTree = "<group>"; };
+		A5803F23184D719700A5A604 /* deletebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deletebutton@2x.png"; sourceTree = "<group>"; };
+		A5803F24184D719700A5A604 /* editbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editbutton@2x.png"; sourceTree = "<group>"; };
+		A5803F25184D719700A5A604 /* flickricon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flickricon@2x.png"; sourceTree = "<group>"; };
+		A5803F26184D719700A5A604 /* freezebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "freezebutton@2x.png"; sourceTree = "<group>"; };
+		A5803F27184D719700A5A604 /* groupicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "groupicon@2x.png"; sourceTree = "<group>"; };
+		A5803F28184D719700A5A604 /* homebackbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homebackbutton@2x.png"; sourceTree = "<group>"; };
+		A5803F29184D719700A5A604 /* idicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idicon@2x.png"; sourceTree = "<group>"; };
+		A5803F2A184D719700A5A604 /* infobutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infobutton@2x.png"; sourceTree = "<group>"; };
+		A5803F2B184D719700A5A604 /* livebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "livebutton@2x.png"; sourceTree = "<group>"; };
+		A5803F2C184D719700A5A604 /* snapbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snapbutton@2x.png"; sourceTree = "<group>"; };
+		A5803F2D184D719700A5A604 /* uploadbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uploadbutton@2x.png"; sourceTree = "<group>"; };
+		A5803F3C184D71AE00A5A604 /* browsebackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browsebackbutton.png; sourceTree = "<group>"; };
+		A5803F3D184D71AE00A5A604 /* browsebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browsebutton.png; sourceTree = "<group>"; };
+		A5803F3E184D71AE00A5A604 /* configbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configbutton.png; sourceTree = "<group>"; };
+		A5803F3F184D71AE00A5A604 /* deletebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deletebutton.png; sourceTree = "<group>"; };
+		A5803F40184D71AE00A5A604 /* editbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbutton.png; sourceTree = "<group>"; };
+		A5803F41184D71AE00A5A604 /* flickricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickricon.png; sourceTree = "<group>"; };
+		A5803F42184D71AE00A5A604 /* freezebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freezebutton.png; sourceTree = "<group>"; };
+		A5803F43184D71AE00A5A604 /* groupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groupicon.png; sourceTree = "<group>"; };
+		A5803F44184D71AE00A5A604 /* homebackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebackbutton.png; sourceTree = "<group>"; };
+		A5803F45184D71AE00A5A604 /* idicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idicon.png; sourceTree = "<group>"; };
+		A5803F46184D71AE00A5A604 /* infobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infobutton.png; sourceTree = "<group>"; };
+		A5803F47184D71AE00A5A604 /* livebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = livebutton.png; sourceTree = "<group>"; };
+		A5803F48184D71AE00A5A604 /* snapbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapbutton.png; sourceTree = "<group>"; };
+		A5803F49184D71AE00A5A604 /* uploadbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadbutton.png; sourceTree = "<group>"; };
+		A5803F4A184D71AE00A5A604 /* usericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usericon.png; sourceTree = "<group>"; };
+		A5803F5A184D7AD100A5A604 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		A5803F5C184D7B6100A5A604 /* cellscope_hawaii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cellscope_hawaii.jpg; sourceTree = "<group>"; };
+		A5803F5E184D7F3700A5A604 /* CellScopeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellScopeContext.h; path = edscope/CellScopeContext.h; sourceTree = "<group>"; };
+		A5A919D4184FF70200F0163D /* recordbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordbutton.png; sourceTree = "<group>"; };
+		A5A919D5184FF70200F0163D /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		A5A919D9184FF72400F0163D /* recordbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recordbutton@2x.png"; sourceTree = "<group>"; };
+		A5A919DA184FF72400F0163D /* stopbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopbutton@2x.png"; sourceTree = "<group>"; };
+		A5A919E5185005CE00F0163D /* MoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoviePlayerView.h; path = edscope/MoviePlayerView.h; sourceTree = "<group>"; };
+		A5A919E6185005CE00F0163D /* MoviePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoviePlayerView.m; path = edscope/MoviePlayerView.m; sourceTree = "<group>"; };
+		A5B708401849D7630058645D /* Pictures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pictures.h; path = edscope/Pictures.h; sourceTree = "<group>"; };
+		A5B708411849D7630058645D /* Pictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pictures.m; path = edscope/Pictures.m; sourceTree = "<group>"; };
+		A5B70845184A8E410058645D /* NSMutableDictionary+ImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+ImageMetadata.h"; path = "edscope/NSMutableDictionary+ImageMetadata.h"; sourceTree = "<group>"; };
+		A5B70846184A8E410058645D /* NSMutableDictionary+ImageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+ImageMetadata.m"; path = "edscope/NSMutableDictionary+ImageMetadata.m"; sourceTree = "<group>"; };
+		A5CF19FB187A3A6000C2C2E1 /* CameraScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraScrollView.h; path = ../../../../.Trash/CameraScrollView.h; sourceTree = "<group>"; };
+		A5CF19FC187A3A6000C2C2E1 /* CameraScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraScrollView.m; path = ../../../../.Trash/CameraScrollView.m; sourceTree = "<group>"; };
+		A5EB06F618504C3200229EB8 /* loopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopbutton.png; sourceTree = "<group>"; };
+		A5EB06F718504C3200229EB8 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		A5EB06F818504C3200229EB8 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		A5EB06FC18504C5600229EB8 /* loopbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loopbutton@2x.png"; sourceTree = "<group>"; };
+		A5EB06FD18504C5600229EB8 /* pausebutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pausebutton@2x.png"; sourceTree = "<group>"; };
+		A5EB06FE18504C5600229EB8 /* playbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playbutton@2x.png"; sourceTree = "<group>"; };
+		A5EB07021852614C00229EB8 /* uploadicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadicon.png; sourceTree = "<group>"; };
+		A5EB07041852616200229EB8 /* uploadicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uploadicon@2x.png"; sourceTree = "<group>"; };
+		A5EB070618526F1B00229EB8 /* startbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startbutton@2x.png"; sourceTree = "<group>"; };
+		A5EB070A18526F9D00229EB8 /* startbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startbutton.png; sourceTree = "<group>"; };
+		A5F410401847FD18008E497E /* FlickrKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FlickrKit.xcodeproj; path = FlickrKit/FlickrKit.xcodeproj; sourceTree = "<group>"; };
+		A5F410711849521A008E497E /* CellScopeContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellScopeContext.m; path = edscope/CellScopeContext.m; sourceTree = "<group>"; };
+		A5F4107318495DC4008E497E /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = edscope/AboutViewController.h; sourceTree = "<group>"; };
+		A5F4107418495DC4008E497E /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = edscope/AboutViewController.m; sourceTree = "<group>"; };
+		A5F41096184971D7008E497E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A5F41097184971D7008E497E /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		A5F410BA1849897C008E497E /* InfoBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoBarView.xib; path = edscope/InfoBarView.xib; sourceTree = "<group>"; };
+		A5F410BC18498C21008E497E /* InfoBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoBarView.h; path = edscope/InfoBarView.h; sourceTree = "<group>"; };
+		A5F410BD18498C21008E497E /* InfoBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoBarView.m; path = edscope/InfoBarView.m; sourceTree = "<group>"; };
+		A5F410BF1849B967008E497E /* EditPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditPictureViewController.h; path = edscope/EditPictureViewController.h; sourceTree = "<group>"; };
+		A5F410C01849B967008E497E /* EditPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditPictureViewController.m; path = edscope/EditPictureViewController.m; sourceTree = "<group>"; };
+		A5F9DECA184E98C50014AD39 /* ScrollBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollBarView.h; path = edscope/ScrollBarView.h; sourceTree = "<group>"; };
+		A5F9DECB184E98C50014AD39 /* ScrollBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollBarView.m; path = edscope/ScrollBarView.m; sourceTree = "<group>"; };
 		A5FD372A183AE42000C67D85 /* edscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FD372D183AE42000C67D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5FD372F183AE42000C67D85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,15 +221,24 @@
 		A5FD3739183AE42000C67D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5FD373B183AE42000C67D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5FD373D183AE42000C67D85 /* edscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "edscope-Prefix.pch"; sourceTree = "<group>"; };
-		A5FD373E183AE42000C67D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5FD373F183AE42000C67D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5FD373E183AE42000C67D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = edscope/AppDelegate.h; sourceTree = "<group>"; };
+		A5FD373F183AE42000C67D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = edscope/AppDelegate.m; sourceTree = "<group>"; };
 		A5FD3742183AE42000C67D85 /* edscope.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = edscope.xcdatamodel; sourceTree = "<group>"; };
 		A5FD3744183AE42000C67D85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5FD374A183AE42000C67D85 /* edscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FD374B183AE42000C67D85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A5FD3754183AE42000C67D85 /* edscopeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "edscopeTests-Info.plist"; sourceTree = "<group>"; };
-		A5FD3756183AE42000C67D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A5FD3758183AE42000C67D85 /* edscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = edscopeTests.m; sourceTree = "<group>"; };
+		A5FD3762183AE44400C67D85 /* edscope-ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "edscope-ipad.storyboard"; path = "edscope/edscope-ipad.storyboard"; sourceTree = "<group>"; };
+		A5FD3767183AE62900C67D85 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = edscope/LoginViewController.h; sourceTree = "<group>"; };
+		A5FD3768183AE62900C67D85 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = edscope/LoginViewController.m; sourceTree = "<group>"; };
+		A5FD376D183AE67D00C67D85 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigurationViewController.h; path = edscope/ConfigurationViewController.h; sourceTree = "<group>"; };
+		A5FD376E183AE67D00C67D85 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigurationViewController.m; path = edscope/ConfigurationViewController.m; sourceTree = "<group>"; };
+		A5FD3770183AE69600C67D85 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureViewController.h; path = edscope/CaptureViewController.h; sourceTree = "<group>"; };
+		A5FD3771183AE69600C67D85 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureViewController.m; path = edscope/CaptureViewController.m; sourceTree = "<group>"; };
+		A5FD3773183AE74800C67D85 /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoBrowserViewController.h; path = edscope/PhotoBrowserViewController.h; sourceTree = "<group>"; };
+		A5FD3774183AE74800C67D85 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowserViewController.m; path = edscope/PhotoBrowserViewController.m; sourceTree = "<group>"; };
+		A5FD3776183AE7B100C67D85 /* PhotoViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewViewController.h; path = edscope/PhotoViewViewController.h; sourceTree = "<group>"; };
+		A5FD3777183AE7B100C67D85 /* PhotoViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewViewController.m; path = edscope/PhotoViewViewController.m; sourceTree = "<group>"; };
+		A5FD377F183B036000C67D85 /* default-configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "default-configuration.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +246,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F4104B1847FDC1008E497E /* libFlickrKit.a in Frameworks */,
+				A52D80371844196300A487EA /* SystemConfiguration.framework in Frameworks */,
 				A5FD3730183AE42000C67D85 /* CoreGraphics.framework in Frameworks */,
 				A5FD3734183AE42000C67D85 /* CoreData.framework in Frameworks */,
 				A5FD3732183AE42000C67D85 /* UIKit.framework in Frameworks */,
@@ -81,13 +269,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5B70848184A8E9E0058645D /* NSMutableDictionary+ImageMetadata */ = {
+			isa = PBXGroup;
+			children = (
+				A5B70845184A8E410058645D /* NSMutableDictionary+ImageMetadata.h */,
+				A5B70846184A8E410058645D /* NSMutableDictionary+ImageMetadata.m */,
+			);
+			name = "NSMutableDictionary+ImageMetadata";
+			sourceTree = "<group>";
+		};
+		A5F4103A1847F739008E497E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5FD3762183AE44400C67D85 /* edscope-ipad.storyboard */,
+				A5F4107318495DC4008E497E /* AboutViewController.h */,
+				A5F4107418495DC4008E497E /* AboutViewController.m */,
+				A5FD3767183AE62900C67D85 /* LoginViewController.h */,
+				A5FD3768183AE62900C67D85 /* LoginViewController.m */,
+				A5FD376D183AE67D00C67D85 /* ConfigurationViewController.h */,
+				A5FD376E183AE67D00C67D85 /* ConfigurationViewController.m */,
+				A5FD3770183AE69600C67D85 /* CaptureViewController.h */,
+				A5FD3771183AE69600C67D85 /* CaptureViewController.m */,
+				A5FD3773183AE74800C67D85 /* PhotoBrowserViewController.h */,
+				A5FD3774183AE74800C67D85 /* PhotoBrowserViewController.m */,
+				A52D7FF61843CF4700A487EA /* PictureThumbnailCell.h */,
+				A52D7FF71843CF4700A487EA /* PictureThumbnailCell.m */,
+				A52D7FF91843D12800A487EA /* PictureThumbnailHeader.h */,
+				A52D7FFA1843D12900A487EA /* PictureThumbnailHeader.m */,
+				A5FD3776183AE7B100C67D85 /* PhotoViewViewController.h */,
+				A5FD3777183AE7B100C67D85 /* PhotoViewViewController.m */,
+				A5F410BF1849B967008E497E /* EditPictureViewController.h */,
+				A5F410C01849B967008E497E /* EditPictureViewController.m */,
+				A52D803918441EB000A487EA /* FKAuthViewController.h */,
+				A52D803A18441EB000A487EA /* FKAuthViewController.m */,
+				A5CF19FB187A3A6000C2C2E1 /* CameraScrollView.h */,
+				A5CF19FC187A3A6000C2C2E1 /* CameraScrollView.m */,
+				A5F9DECA184E98C50014AD39 /* ScrollBarView.h */,
+				A5F9DECB184E98C50014AD39 /* ScrollBarView.m */,
+				A5F410BA1849897C008E497E /* InfoBarView.xib */,
+				A5F410BC18498C21008E497E /* InfoBarView.h */,
+				A5F410BD18498C21008E497E /* InfoBarView.m */,
+				A5A919E5185005CE00F0163D /* MoviePlayerView.h */,
+				A5A919E6185005CE00F0163D /* MoviePlayerView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		A5F4103B1847F7C1008E497E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5B708401849D7630058645D /* Pictures.h */,
+				A5B708411849D7630058645D /* Pictures.m */,
+				A5FD3741183AE42000C67D85 /* edscope.xcdatamodeld */,
+				A52D80441845A6C700A487EA /* Sessions.h */,
+				A52D80451845A6C700A487EA /* Sessions.m */,
+				A52D7FED18430A4200A487EA /* CoreDataHelper.h */,
+				A52D7FEE18430A4200A487EA /* CoreDataHelper.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		A5F4103C1847F7F4008E497E /* UIImage+Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A52D7FDE1842D0BD00A487EA /* UIImage+Alpha.h */,
+				A52D7FDF1842D0BE00A487EA /* UIImage+Alpha.m */,
+				A52D7FE01842D0BE00A487EA /* UIImage+Resize.h */,
+				A52D7FE11842D0BE00A487EA /* UIImage+Resize.m */,
+				A52D7FE21842D0BE00A487EA /* UIImage+RoundedCorner.h */,
+				A52D7FE31842D0BE00A487EA /* UIImage+RoundedCorner.m */,
+			);
+			name = "UIImage+Tools";
+			path = edscope;
+			sourceTree = "<group>";
+		};
+		A5F4103D1847F929008E497E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB070A18526F9D00229EB8 /* startbutton.png */,
+				A5EB070618526F1B00229EB8 /* startbutton@2x.png */,
+				A5EB07021852614C00229EB8 /* uploadicon.png */,
+				A5EB07041852616200229EB8 /* uploadicon@2x.png */,
+				A5EB06F618504C3200229EB8 /* loopbutton.png */,
+				A5EB06F718504C3200229EB8 /* pausebutton.png */,
+				A5EB06F818504C3200229EB8 /* playbutton.png */,
+				A5EB06FC18504C5600229EB8 /* loopbutton@2x.png */,
+				A5EB06FD18504C5600229EB8 /* pausebutton@2x.png */,
+				A5EB06FE18504C5600229EB8 /* playbutton@2x.png */,
+				A5A919D4184FF70200F0163D /* recordbutton.png */,
+				A5A919D5184FF70200F0163D /* stopbutton.png */,
+				A5A919D9184FF72400F0163D /* recordbutton@2x.png */,
+				A5A919DA184FF72400F0163D /* stopbutton@2x.png */,
+				A5803F3C184D71AE00A5A604 /* browsebackbutton.png */,
+				A5803F3D184D71AE00A5A604 /* browsebutton.png */,
+				A5803F3E184D71AE00A5A604 /* configbutton.png */,
+				A5803F3F184D71AE00A5A604 /* deletebutton.png */,
+				A5803F40184D71AE00A5A604 /* editbutton.png */,
+				A5803F41184D71AE00A5A604 /* flickricon.png */,
+				A5803F42184D71AE00A5A604 /* freezebutton.png */,
+				A5803F43184D71AE00A5A604 /* groupicon.png */,
+				A5803F44184D71AE00A5A604 /* homebackbutton.png */,
+				A5803F45184D71AE00A5A604 /* idicon.png */,
+				A5803F46184D71AE00A5A604 /* infobutton.png */,
+				A5803F47184D71AE00A5A604 /* livebutton.png */,
+				A5803F48184D71AE00A5A604 /* snapbutton.png */,
+				A5803F49184D71AE00A5A604 /* uploadbutton.png */,
+				A5803F4A184D71AE00A5A604 /* usericon.png */,
+				A5803F20184D719700A5A604 /* browsebackbutton@2x.png */,
+				A5803F21184D719700A5A604 /* browsebutton@2x.png */,
+				A5803F22184D719700A5A604 /* configbutton@2x.png */,
+				A5803F23184D719700A5A604 /* deletebutton@2x.png */,
+				A5803F24184D719700A5A604 /* editbutton@2x.png */,
+				A5803F25184D719700A5A604 /* flickricon@2x.png */,
+				A5803F26184D719700A5A604 /* freezebutton@2x.png */,
+				A5803F27184D719700A5A604 /* groupicon@2x.png */,
+				A5803F28184D719700A5A604 /* homebackbutton@2x.png */,
+				A5803F29184D719700A5A604 /* idicon@2x.png */,
+				A5803F2A184D719700A5A604 /* infobutton@2x.png */,
+				A5803F2B184D719700A5A604 /* livebutton@2x.png */,
+				A5803F2C184D719700A5A604 /* snapbutton@2x.png */,
+				A5803F2D184D719700A5A604 /* uploadbutton@2x.png */,
+				A5F41096184971D7008E497E /* logo.png */,
+				A5F41097184971D7008E497E /* logo@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A5F410411847FD18008E497E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F410461847FD19008E497E /* libFlickrKit.a */,
+				A5F410481847FD19008E497E /* FlickrKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A5FD3721183AE42000C67D85 = {
 			isa = PBXGroup;
 			children = (
-				A5FD3735183AE42000C67D85 /* edscope */,
-				A5FD3752183AE42000C67D85 /* edscopeTests */,
+				A5F4103A1847F739008E497E /* UI */,
+				A5F4103B1847F7C1008E497E /* Core Data */,
+				A5FD3736183AE42000C67D85 /* Supporting Files */,
+				A5803F5E184D7F3700A5A604 /* CellScopeContext.h */,
+				A5F410711849521A008E497E /* CellScopeContext.m */,
+				A5FD373E183AE42000C67D85 /* AppDelegate.h */,
+				A5FD373F183AE42000C67D85 /* AppDelegate.m */,
 				A5FD372C183AE42000C67D85 /* Frameworks */,
 				A5FD372B183AE42000C67D85 /* Products */,
+				A5B70848184A8E9E0058645D /* NSMutableDictionary+ImageMetadata */,
+				A5F4103C1847F7F4008E497E /* UIImage+Tools */,
+				A5F410401847FD18008E497E /* FlickrKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +434,7 @@
 		A5FD372C183AE42000C67D85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A52D80361844196300A487EA /* SystemConfiguration.framework */,
 				A5FD372D183AE42000C67D85 /* Foundation.framework */,
 				A5FD372F183AE42000C67D85 /* CoreGraphics.framework */,
 				A5FD3731183AE42000C67D85 /* UIKit.framework */,
@@ -112,45 +444,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5FD3735183AE42000C67D85 /* edscope */ = {
-			isa = PBXGroup;
-			children = (
-				A5FD373E183AE42000C67D85 /* AppDelegate.h */,
-				A5FD373F183AE42000C67D85 /* AppDelegate.m */,
-				A5FD3744183AE42000C67D85 /* Images.xcassets */,
-				A5FD3741183AE42000C67D85 /* edscope.xcdatamodeld */,
-				A5FD3736183AE42000C67D85 /* Supporting Files */,
-			);
-			path = edscope;
-			sourceTree = "<group>";
-		};
 		A5FD3736183AE42000C67D85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5F4103D1847F929008E497E /* Images */,
+				A5FD3744183AE42000C67D85 /* Images.xcassets */,
+				A5803F5A184D7AD100A5A604 /* about.html */,
+				A5803F5C184D7B6100A5A604 /* cellscope_hawaii.jpg */,
 				A5FD3737183AE42000C67D85 /* edscope-Info.plist */,
+				A5FD377F183B036000C67D85 /* default-configuration.plist */,
 				A5FD3738183AE42000C67D85 /* InfoPlist.strings */,
 				A5FD373B183AE42000C67D85 /* main.m */,
 				A5FD373D183AE42000C67D85 /* edscope-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A5FD3752183AE42000C67D85 /* edscopeTests */ = {
-			isa = PBXGroup;
-			children = (
-				A5FD3758183AE42000C67D85 /* edscopeTests.m */,
-				A5FD3753183AE42000C67D85 /* Supporting Files */,
-			);
-			path = edscopeTests;
-			sourceTree = "<group>";
-		};
-		A5FD3753183AE42000C67D85 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5FD3754183AE42000C67D85 /* edscopeTests-Info.plist */,
-				A5FD3755183AE42000C67D85 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = edscope;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +475,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A5F4104A1847FDB1008E497E /* PBXTargetDependency */,
 			);
 			name = edscope;
 			productName = edscope;
@@ -215,6 +524,12 @@
 			mainGroup = A5FD3721183AE42000C67D85;
 			productRefGroup = A5FD372B183AE42000C67D85 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A5F410411847FD18008E497E /* Products */;
+					ProjectRef = A5F410401847FD18008E497E /* FlickrKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A5FD3729183AE42000C67D85 /* edscope */,
@@ -223,13 +538,80 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A5F410461847FD19008E497E /* libFlickrKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFlickrKit.a;
+			remoteRef = A5F410451847FD19008E497E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5F410481847FD19008E497E /* FlickrKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FlickrKitTests.octest;
+			remoteRef = A5F410471847FD19008E497E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A5FD3728183AE42000C67D85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5FD373A183AE42000C67D85 /* InfoPlist.strings in Resources */,
+				A5803F3B184D719700A5A604 /* uploadbutton@2x.png in Resources */,
+				A5A919DC184FF72400F0163D /* stopbutton@2x.png in Resources */,
+				A5803F32184D719700A5A604 /* editbutton@2x.png in Resources */,
+				A5EB06FA18504C3200229EB8 /* pausebutton.png in Resources */,
+				A5803F5D184D7B6100A5A604 /* cellscope_hawaii.jpg in Resources */,
+				A5F41099184971D7008E497E /* logo@2x.png in Resources */,
+				A5803F35184D719700A5A604 /* groupicon@2x.png in Resources */,
+				A5803F50184D71AE00A5A604 /* flickricon.png in Resources */,
+				A5803F38184D719700A5A604 /* infobutton@2x.png in Resources */,
+				A5803F30184D719700A5A604 /* configbutton@2x.png in Resources */,
+				A5803F4B184D71AE00A5A604 /* browsebackbutton.png in Resources */,
+				A5803F4D184D71AE00A5A604 /* configbutton.png in Resources */,
+				A5803F52184D71AE00A5A604 /* groupicon.png in Resources */,
+				A5803F33184D719700A5A604 /* flickricon@2x.png in Resources */,
+				A5EB07031852614C00229EB8 /* uploadicon.png in Resources */,
+				A5FD3780183B036000C67D85 /* default-configuration.plist in Resources */,
+				A5803F4E184D71AE00A5A604 /* deletebutton.png in Resources */,
+				A5803F2E184D719700A5A604 /* browsebackbutton@2x.png in Resources */,
+				A5EB06FF18504C5600229EB8 /* loopbutton@2x.png in Resources */,
+				A5803F34184D719700A5A604 /* freezebutton@2x.png in Resources */,
+				A5EB06F918504C3200229EB8 /* loopbutton.png in Resources */,
+				A5803F51184D71AE00A5A604 /* freezebutton.png in Resources */,
 				A5FD3745183AE42000C67D85 /* Images.xcassets in Resources */,
+				A5803F54184D71AE00A5A604 /* idicon.png in Resources */,
+				A5803F58184D71AE00A5A604 /* uploadbutton.png in Resources */,
+				A5A919D6184FF70200F0163D /* recordbutton.png in Resources */,
+				A5803F5B184D7AD100A5A604 /* about.html in Resources */,
+				A5803F57184D71AE00A5A604 /* snapbutton.png in Resources */,
+				A5EB070018504C5600229EB8 /* pausebutton@2x.png in Resources */,
+				A5803F36184D719700A5A604 /* homebackbutton@2x.png in Resources */,
+				A5803F4F184D71AE00A5A604 /* editbutton.png in Resources */,
+				A5EB070B18526F9D00229EB8 /* startbutton.png in Resources */,
+				A5803F37184D719700A5A604 /* idicon@2x.png in Resources */,
+				A5EB070118504C5600229EB8 /* playbutton@2x.png in Resources */,
+				A5A919D7184FF70200F0163D /* stopbutton.png in Resources */,
+				A5A919DB184FF72400F0163D /* recordbutton@2x.png in Resources */,
+				A5EB07051852616200229EB8 /* uploadicon@2x.png in Resources */,
+				A5803F39184D719700A5A604 /* livebutton@2x.png in Resources */,
+				A5803F53184D71AE00A5A604 /* homebackbutton.png in Resources */,
+				A5EB070718526F1B00229EB8 /* startbutton@2x.png in Resources */,
+				A5803F4C184D71AE00A5A604 /* browsebutton.png in Resources */,
+				A5803F31184D719700A5A604 /* deletebutton@2x.png in Resources */,
+				A5EB06FB18504C3200229EB8 /* playbutton.png in Resources */,
+				A5803F59184D71AE00A5A604 /* usericon.png in Resources */,
+				A5F41098184971D7008E497E /* logo.png in Resources */,
+				A5F410BB1849897C008E497E /* InfoBarView.xib in Resources */,
+				A5803F3A184D719700A5A604 /* snapbutton@2x.png in Resources */,
+				A5803F2F184D719700A5A604 /* browsebutton@2x.png in Resources */,
+				A5803F55184D71AE00A5A604 /* infobutton.png in Resources */,
+				A5FD3763183AE44400C67D85 /* edscope-ipad.storyboard in Resources */,
+				A5803F56184D71AE00A5A604 /* livebutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +619,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FD3757183AE42000C67D85 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +629,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FD3778183AE7B100C67D85 /* PhotoViewViewController.m in Sources */,
+				A5F410721849521B008E497E /* CellScopeContext.m in Sources */,
+				A5FD3769183AE62900C67D85 /* LoginViewController.m in Sources */,
+				A52D7FEF18430A4200A487EA /* CoreDataHelper.m in Sources */,
+				A5F4107518495DC4008E497E /* AboutViewController.m in Sources */,
+				A5CF19FD187A3A6000C2C2E1 /* CameraScrollView.m in Sources */,
+				A5B708421849D7630058645D /* Pictures.m in Sources */,
 				A5FD3740183AE42000C67D85 /* AppDelegate.m in Sources */,
+				A5B70847184A8E410058645D /* NSMutableDictionary+ImageMetadata.m in Sources */,
+				A5FD3775183AE74800C67D85 /* PhotoBrowserViewController.m in Sources */,
+				A52D7FE51842D0BE00A487EA /* UIImage+Resize.m in Sources */,
+				A5F9DECC184E98C50014AD39 /* ScrollBarView.m in Sources */,
+				A52D80461845A6C700A487EA /* Sessions.m in Sources */,
+				A5F410C11849B967008E497E /* EditPictureViewController.m in Sources */,
+				A52D7FF81843CF4700A487EA /* PictureThumbnailCell.m in Sources */,
 				A5FD373C183AE42000C67D85 /* main.m in Sources */,
+				A52D7FE61842D0BE00A487EA /* UIImage+RoundedCorner.m in Sources */,
+				A52D7FE41842D0BE00A487EA /* UIImage+Alpha.m in Sources */,
+				A52D7FFB1843D12900A487EA /* PictureThumbnailHeader.m in Sources */,
 				A5FD3743183AE42000C67D85 /* edscope.xcdatamodeld in Sources */,
+				A52D803C18441EB000A487EA /* FKAuthViewController.m in Sources */,
+				A5A919E7185005CE00F0163D /* MoviePlayerView.m in Sources */,
+				A5FD376F183AE67D00C67D85 /* ConfigurationViewController.m in Sources */,
+				A5FD3772183AE69600C67D85 /* CaptureViewController.m in Sources */,
+				A5F410BE18498C21008E497E /* InfoBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,13 +661,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5FD3759183AE42000C67D85 /* edscopeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A5F4104A1847FDB1008E497E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlickrKit;
+			targetProxy = A5F410491847FDB1008E497E /* PBXContainerItemProxy */;
+		};
 		A5FD3751183AE42000C67D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A5FD3729183AE42000C67D85 /* edscope */;
@@ -277,14 +684,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A5FD3739183AE42000C67D85 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A5FD3755183AE42000C67D85 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5FD3756183AE42000C67D85 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -369,12 +768,20 @@
 		A5FD375D183AE42000C67D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "edscope/edscope-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"./FlickrKit\"/**",
+				);
 				INFOPLIST_FILE = "edscope/edscope-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,12 +789,20 @@
 		A5FD375E183AE42000C67D85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "edscope/edscope-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"./FlickrKit\"/**",
+				);
 				INFOPLIST_FILE = "edscope/edscope-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -453,6 +868,7 @@
 				A5FD375E183AE42000C67D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5FD375F183AE42000C67D85 /* Build configuration list for PBXNativeTarget "edscopeTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +877,7 @@
 				A5FD3761183AE42000C67D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -471,7 +888,8 @@
 				A5FD3742183AE42000C67D85 /* edscope.xcdatamodel */,
 			);
 			currentVersion = A5FD3742183AE42000C67D85 /* edscope.xcdatamodel */;
-			path = edscope.xcdatamodeld;
+			name = edscope.xcdatamodeld;
+			path = edscope/edscope.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

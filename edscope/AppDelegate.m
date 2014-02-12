@@ -16,10 +16,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
+    // Setup defaults for preference file
+    NSString* defaultPrefsFile = [[NSBundle mainBundle] pathForResource:@"default-configuration" ofType:@"plist"];
+    NSDictionary* defaultPreferences = [NSDictionary dictionaryWithContentsOfFile:defaultPrefsFile];
+    [[NSUserDefaults standardUserDefaults] registerDefaults:defaultPreferences];
+
+   
+    //setup flickr API key
+	// Initialise FlickrKit with your flickr api key and shared secret
+	NSString *apiKey = @"60605608788b54047b9917da11459089";
+	NSString *secret = @"94a79d9413f67aaa";
+    [[FlickrKit sharedFlickrKit] initializeWithAPIKey:apiKey sharedSecret:secret];
+
+    [[CellScopeContext sharedContext] setManagedObjectContext:self.managedObjectContext];
+    
+    //pass core data context on to first view controller
+    //UINavigationController* rootView = (UINavigationController *)self.window.rootViewController;
+    //LoginViewController* lvc = (LoginViewController *)[[rootView viewControllers] lastObject];
+    //lvc.managedObjectContext = self.managedObjectContext;
+    
+    
+    return YES;
+    
+    
+    
+}
+
+//Following a Flickr login attempt, Flickr will send the app a cellscope://auth request, which gets handled here.  This triggers a notification, which is picked up in the ConfigurationViewController
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    NSString *scheme = [url scheme];
+	if([scheme isEqualToString:@"cellscope"]) {
+		// I don't recommend doing it like this, it's just a demo... I use an authentication
+		// controller singleton object in my projects
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"FlickrAuthCallbackNotification" object:url userInfo:nil];
+    }
     return YES;
 }
 
@@ -104,7 +135,7 @@
     }
     
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"edscope.sqlite"];
-    
+   
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {

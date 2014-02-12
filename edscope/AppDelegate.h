@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LoginViewController.h"
+#import "FlickrKit.h"
+#import "CellScopeContext.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

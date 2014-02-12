@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LoginViewController shouldPerformSegueWithIdentifier:sender:]:LoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.nameTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[CaptureViewController savePhoto:]_block_invoke:CaptureViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "newPicture.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EditPictureViewController viewWillDisappear:]:EditPictureViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parentViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoBrowserViewController collectionView:cellForItemAtIndexPath:]:PhotoBrowserViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.item">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AboutViewController webView:shouldStartLoadWithRequest:navigationType:]:AboutViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "inRequest.URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController prepareForSegue:sender:]:LoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.nameTextField">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[PhotoViewViewController didPressUpload:]_block_invoke_3:PhotoViewViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentPicture.isFault">
+            </PersistentString>
+            <PersistentString
+               value = "currentPicture.isDeleted">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController alertView:clickedButtonAtIndex:]:LoginViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
