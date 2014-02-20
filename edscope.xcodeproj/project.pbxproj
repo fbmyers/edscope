@@ -54,7 +54,6 @@
 		A5A919E7185005CE00F0163D /* MoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A919E6185005CE00F0163D /* MoviePlayerView.m */; };
 		A5B708421849D7630058645D /* Pictures.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B708411849D7630058645D /* Pictures.m */; };
 		A5B70847184A8E410058645D /* NSMutableDictionary+ImageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B70846184A8E410058645D /* NSMutableDictionary+ImageMetadata.m */; };
-		A5CF19FD187A3A6000C2C2E1 /* CameraScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CF19FC187A3A6000C2C2E1 /* CameraScrollView.m */; };
 		A5EB06F918504C3200229EB8 /* loopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06F618504C3200229EB8 /* loopbutton.png */; };
 		A5EB06FA18504C3200229EB8 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06F718504C3200229EB8 /* pausebutton.png */; };
 		A5EB06FB18504C3200229EB8 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A5EB06F818504C3200229EB8 /* playbutton.png */; };
@@ -74,6 +73,7 @@
 		A5F410BE18498C21008E497E /* InfoBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F410BD18498C21008E497E /* InfoBarView.m */; };
 		A5F410C11849B967008E497E /* EditPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F410C01849B967008E497E /* EditPictureViewController.m */; };
 		A5F9DECC184E98C50014AD39 /* ScrollBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F9DECB184E98C50014AD39 /* ScrollBarView.m */; };
+		A5FCCD0118B6AB360004B2F5 /* CameraScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FCCD0018B6AB360004B2F5 /* CameraScrollView.m */; };
 		A5FD372E183AE42000C67D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD372D183AE42000C67D85 /* Foundation.framework */; };
 		A5FD3730183AE42000C67D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD372F183AE42000C67D85 /* CoreGraphics.framework */; };
 		A5FD3732183AE42000C67D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FD3731183AE42000C67D85 /* UIKit.framework */; };
@@ -187,8 +187,6 @@
 		A5B708411849D7630058645D /* Pictures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pictures.m; path = edscope/Pictures.m; sourceTree = "<group>"; };
 		A5B70845184A8E410058645D /* NSMutableDictionary+ImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+ImageMetadata.h"; path = "edscope/NSMutableDictionary+ImageMetadata.h"; sourceTree = "<group>"; };
 		A5B70846184A8E410058645D /* NSMutableDictionary+ImageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+ImageMetadata.m"; path = "edscope/NSMutableDictionary+ImageMetadata.m"; sourceTree = "<group>"; };
-		A5CF19FB187A3A6000C2C2E1 /* CameraScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraScrollView.h; path = ../../../../.Trash/CameraScrollView.h; sourceTree = "<group>"; };
-		A5CF19FC187A3A6000C2C2E1 /* CameraScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraScrollView.m; path = ../../../../.Trash/CameraScrollView.m; sourceTree = "<group>"; };
 		A5EB06F618504C3200229EB8 /* loopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopbutton.png; sourceTree = "<group>"; };
 		A5EB06F718504C3200229EB8 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
 		A5EB06F818504C3200229EB8 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
@@ -212,6 +210,8 @@
 		A5F410C01849B967008E497E /* EditPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditPictureViewController.m; path = edscope/EditPictureViewController.m; sourceTree = "<group>"; };
 		A5F9DECA184E98C50014AD39 /* ScrollBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollBarView.h; path = edscope/ScrollBarView.h; sourceTree = "<group>"; };
 		A5F9DECB184E98C50014AD39 /* ScrollBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollBarView.m; path = edscope/ScrollBarView.m; sourceTree = "<group>"; };
+		A5FCCCFF18B6AB360004B2F5 /* CameraScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraScrollView.h; sourceTree = "<group>"; };
+		A5FCCD0018B6AB360004B2F5 /* CameraScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraScrollView.m; sourceTree = "<group>"; };
 		A5FD372A183AE42000C67D85 /* edscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FD372D183AE42000C67D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5FD372F183AE42000C67D85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -302,8 +302,8 @@
 				A5F410C01849B967008E497E /* EditPictureViewController.m */,
 				A52D803918441EB000A487EA /* FKAuthViewController.h */,
 				A52D803A18441EB000A487EA /* FKAuthViewController.m */,
-				A5CF19FB187A3A6000C2C2E1 /* CameraScrollView.h */,
-				A5CF19FC187A3A6000C2C2E1 /* CameraScrollView.m */,
+				A5FCCCFF18B6AB360004B2F5 /* CameraScrollView.h */,
+				A5FCCD0018B6AB360004B2F5 /* CameraScrollView.m */,
 				A5F9DECA184E98C50014AD39 /* ScrollBarView.h */,
 				A5F9DECB184E98C50014AD39 /* ScrollBarView.m */,
 				A5F410BA1849897C008E497E /* InfoBarView.xib */,
@@ -629,12 +629,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FCCD0118B6AB360004B2F5 /* CameraScrollView.m in Sources */,
 				A5FD3778183AE7B100C67D85 /* PhotoViewViewController.m in Sources */,
 				A5F410721849521B008E497E /* CellScopeContext.m in Sources */,
 				A5FD3769183AE62900C67D85 /* LoginViewController.m in Sources */,
 				A52D7FEF18430A4200A487EA /* CoreDataHelper.m in Sources */,
 				A5F4107518495DC4008E497E /* AboutViewController.m in Sources */,
-				A5CF19FD187A3A6000C2C2E1 /* CameraScrollView.m in Sources */,
 				A5B708421849D7630058645D /* Pictures.m in Sources */,
 				A5FD3740183AE42000C67D85 /* AppDelegate.m in Sources */,
 				A5B70847184A8E410058645D /* NSMutableDictionary+ImageMetadata.m in Sources */,
