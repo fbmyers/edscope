@@ -93,7 +93,7 @@
 		A5FD3772183AE69600C67D85 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3771183AE69600C67D85 /* CaptureViewController.m */; };
 		A5FD3775183AE74800C67D85 /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3774183AE74800C67D85 /* PhotoBrowserViewController.m */; };
 		A5FD3778183AE7B100C67D85 /* PhotoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FD3777183AE7B100C67D85 /* PhotoViewViewController.m */; };
-		A5FD3780183B036000C67D85 /* default-configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5FD377F183B036000C67D85 /* default-configuration.plist */; };
+		A5FD3780183B036000C67D85 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5FD377F183B036000C67D85 /* configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,7 +238,7 @@
 		A5FD3774183AE74800C67D85 /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoBrowserViewController.m; path = edscope/PhotoBrowserViewController.m; sourceTree = "<group>"; };
 		A5FD3776183AE7B100C67D85 /* PhotoViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoViewViewController.h; path = edscope/PhotoViewViewController.h; sourceTree = "<group>"; };
 		A5FD3777183AE7B100C67D85 /* PhotoViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoViewViewController.m; path = edscope/PhotoViewViewController.m; sourceTree = "<group>"; };
-		A5FD377F183B036000C67D85 /* default-configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "default-configuration.plist"; sourceTree = "<group>"; };
+		A5FD377F183B036000C67D85 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -452,7 +452,7 @@
 				A5803F5A184D7AD100A5A604 /* about.html */,
 				A5803F5C184D7B6100A5A604 /* cellscope_hawaii.jpg */,
 				A5FD3737183AE42000C67D85 /* edscope-Info.plist */,
-				A5FD377F183B036000C67D85 /* default-configuration.plist */,
+				A5FD377F183B036000C67D85 /* configuration.plist */,
 				A5FD3738183AE42000C67D85 /* InfoPlist.strings */,
 				A5FD373B183AE42000C67D85 /* main.m */,
 				A5FD373D183AE42000C67D85 /* edscope-Prefix.pch */,
@@ -576,7 +576,7 @@
 				A5803F52184D71AE00A5A604 /* groupicon.png in Resources */,
 				A5803F33184D719700A5A604 /* flickricon@2x.png in Resources */,
 				A5EB07031852614C00229EB8 /* uploadicon.png in Resources */,
-				A5FD3780183B036000C67D85 /* default-configuration.plist in Resources */,
+				A5FD3780183B036000C67D85 /* configuration.plist in Resources */,
 				A5803F4E184D71AE00A5A604 /* deletebutton.png in Resources */,
 				A5803F2E184D719700A5A604 /* browsebackbutton@2x.png in Resources */,
 				A5EB06FF18504C5600229EB8 /* loopbutton@2x.png in Resources */,

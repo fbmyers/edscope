@@ -20,6 +20,10 @@
 @property (weak,nonatomic) IBOutlet UITextField* nameTextField;
 @property (weak,nonatomic) IBOutlet UITextField* classTextField;
 @property (weak,nonatomic) IBOutlet UILabel* versionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *classLabel;
+
+
 @property (strong,nonatomic) IBOutlet InfoBarView* infoBarView;
 
 @property (strong,nonatomic) UIAlertView* passwordAlert;

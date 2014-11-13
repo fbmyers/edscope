@@ -231,10 +231,14 @@
     //increment the picture counter
     long pictureNumber = [[NSUserDefaults standardUserDefaults] integerForKey:@"PictureCount"] + 1;
     [[NSUserDefaults standardUserDefaults] setInteger:pictureNumber forKey:@"PictureCount"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
     
     //set EXIF metadata, geotagging, etc.
     [metadata setDateOriginal:[NSDate date]]; //set the date captured
     [metadata setLocation:[locationManager location]];
+    
+    //NEW...
+    [metadata setTitle:[CellScopeContext getEXIFTitleString:newTitle]];
     
     if ([[[NSUserDefaults standardUserDefaults] stringForKey:@"CaptureOrientation"] isEqualToString:@"Portrait"] ||
         [[[NSUserDefaults standardUserDefaults] stringForKey:@"CaptureOrientation"] isEqualToString:@"PortraitUpsideDown"])

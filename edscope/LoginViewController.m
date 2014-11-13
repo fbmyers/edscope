@@ -38,9 +38,15 @@
     [[self navigationController] setNavigationBarHidden:YES animated:YES];
     [[UIApplication sharedApplication] setStatusBarHidden:NO];
     
+    //setup prompts
+    self.nameLabel.text = [NSString stringWithFormat:@"%@:",[[NSUserDefaults standardUserDefaults] stringForKey:@"UserNamePrompt"]];
+    self.classLabel.text = [NSString stringWithFormat:@"%@:",[[NSUserDefaults standardUserDefaults] stringForKey:@"GroupNamePrompt"]];
+    
+    
     //get default student/group name
-    self.nameTextField.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"DefaultStudentName"];
+    self.nameTextField.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"DefaultUserName"];
     self.classTextField.text = [[NSUserDefaults standardUserDefaults] stringForKey:@"DefaultGroupName"];
+    
     
     //get the app version
     NSString * appVersionString = [NSString stringWithFormat:@"Version %@", [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]];

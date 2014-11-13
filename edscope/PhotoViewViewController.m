@@ -235,9 +235,11 @@
     [dateFormatter setDateFormat:[[NSUserDefaults standardUserDefaults] stringForKey:@"DateFormat"]];
     NSString* dateString = [dateFormatter stringFromDate:date];
     
-    NSString* flickrDescription = [NSString stringWithFormat:@"%@\n\nName: %@\nGroup/Class: %@\nLocation: %@\nCellScope ID: %@\nDate Taken: %@",
+    NSString* flickrDescription = [NSString stringWithFormat:@"%@\n\n%@: %@\n%@: %@\nLocation: %@\nCellScope ID: %@\nDate Taken: %@",
                                    currentPicture.notes,
+                                   [[NSUserDefaults standardUserDefaults] stringForKey:@"UserNamePrompt"],
                                    currentPicture.session.student,
+                                   [[NSUserDefaults standardUserDefaults] stringForKey:@"GroupNamePrompt"],
                                    currentPicture.session.group,
                                    currentPicture.session.location,
                                    currentPicture.session.cellscopeID,

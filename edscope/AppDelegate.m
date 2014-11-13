@@ -18,7 +18,7 @@
 {
     
     // Setup defaults for preference file
-    NSString* defaultPrefsFile = [[NSBundle mainBundle] pathForResource:@"default-configuration" ofType:@"plist"];
+    NSString* defaultPrefsFile = [[NSBundle mainBundle] pathForResource:@"configuration" ofType:@"plist"];
     NSDictionary* defaultPreferences = [NSDictionary dictionaryWithContentsOfFile:defaultPrefsFile];
     [[NSUserDefaults standardUserDefaults] registerDefaults:defaultPreferences];
 

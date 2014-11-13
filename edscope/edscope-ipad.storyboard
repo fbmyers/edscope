@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sally" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="was-F3-pEq">
+                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="was-F3-pEq">
                                 <rect key="frame" x="446" y="218" width="245" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -25,7 +25,7 @@
                                     <outlet property="delegate" destination="eXI-aO-Wmu" id="MeZ-6o-QGP"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Biology" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wGU-GP-a5I">
+                            <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wGU-GP-a5I">
                                 <rect key="frame" x="446" y="269" width="245" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -99,7 +99,9 @@
                     <navigationItem key="navigationItem" id="U7Y-lN-QMj"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
+                        <outlet property="classLabel" destination="3Jr-aa-cv6" id="592-Tf-u4o"/>
                         <outlet property="classTextField" destination="wGU-GP-a5I" id="ZfO-lX-mod"/>
+                        <outlet property="nameLabel" destination="HiF-TC-IHF" id="TUD-9p-PPp"/>
                         <outlet property="nameTextField" destination="was-F3-pEq" id="Ukr-eR-QXn"/>
                         <outlet property="versionLabel" destination="y1K-0J-a97" id="4x6-2m-COG"/>
                         <segue destination="iPh-me-GuU" kind="push" identifier="ConfigurationSegue" id="7J9-Ef-6TE"/>

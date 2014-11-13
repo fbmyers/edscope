@@ -313,9 +313,11 @@
                 pixelsPerMM:(float)pixelsPerMM
               pictureNumber:(long)pictureNumber
 {
-    NSString* descriptionString = [NSString stringWithFormat:@"Photo Taken With CellScope Explorer, Software Version: %@, User Name: %@, Group/Class: %@, Location: %@, CellScopeID: %@, Magnification: %@, PixelsPerMM: %3.3f, PictureNumber: %ld",
+    NSString* descriptionString = [NSString stringWithFormat:@"Photo Taken With CellScope Explorer, Software Version: %@, %@: %@, %@: %@, Location: %@, CellScopeID: %@, Magnification: %@, PixelsPerMM: %3.3f, PictureNumber: %ld",
                                    softwareVersion,
+                                   [[NSUserDefaults standardUserDefaults] stringForKey:@"UserNamePrompt"],
                                    studentName,
+                                   [[NSUserDefaults standardUserDefaults] stringForKey:@"GroupNamePrompt"],
                                    groupName,
                                    locationName,
                                    cellScopeID,
@@ -325,7 +327,22 @@
     
     [self setUserComment:descriptionString]; //Q: is this the best (most universal) place for this?
     
+    //NEW..............
+    [self setDescription:descriptionString]; //is this ok? does it override flickr upload flags?
+    
+    //does this work?
+    //TODO: this is duplicated in upload code. which takes precedence? how to choose? one might work for Flickr and the other Picasa/iPhoto
+    NSString* tags = [NSString stringWithFormat:@"\"%@\" \"%@\" \"%@\" \"%@\" \"%@\"",
+                           @"CellScope",
+                           studentName,
+                           groupName,
+                           locationName,
+                      cellScopeID];
+    [self setKeywords:tags];
+    //...........
+    
     [self setMake:@"CellScope" model:@"Explorer" software:softwareVersion];
+    
     
     //these aren't getting interpreted by flickr appropriately, so we will just do this using the upload API
     //[self setKeywords:[NSString stringWithFormat:@"\"%@\"\n\"%@\"\n\"%@\"\n\"%@\"\n\"%@\"",@"CellScope",studentName,groupName,locationName,cellScopeID]];

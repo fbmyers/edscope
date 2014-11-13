@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>EXIFTitleFormat</key>
+	<string>&lt;USER&gt; - &lt;GROUP&gt; - &lt;CELLSCOPEID&gt; - &lt;IMAGENUMBER&gt;</string>
+	<key>UserNamePrompt</key>
+	<string>Sample ID</string>
+	<key>GroupNamePrompt</key>
+	<string>Patient ID</string>
 	<key>PixelsPerMMPhotoPreview</key>
 	<integer>647</integer>
 	<key>PixelsPerMMVideo</key>
@@ -38,7 +44,7 @@
 	<string>0</string>
 	<key>DefaultGroupName</key>
 	<string></string>
-	<key>DefaultStudentName</key>
+	<key>DefaultUserName</key>
 	<string></string>
 	<key>CellScopeID</key>
 	<string>FLETCH-001</string>

@@ -2,7 +2,7 @@
 //  ConfigurationViewController.m
 //  edscope
 //
-//  This view allows users to change preferences (stored in NSUserDefaults, with the default-configuration.plist providing default values)
+//  This view allows users to change preferences (stored in NSUserDefaults, with the configuration.plist providing default values)
 //
 //  Created by Frankie Myers on 11/18/13.
 //  Copyright (c) 2013 UC Berkeley Fletcher Lab. All rights reserved.
@@ -47,7 +47,7 @@
     self.pixelsPerMMPreviewField.text = [[NSString alloc] initWithFormat:@"%3.0f",[prefs floatForKey:@"PixelsPerMMPhotoPreview"]];
     self.pixelsPerMMVideoField.text = [[NSString alloc] initWithFormat:@"%3.0f",[prefs floatForKey:@"PixelsPerMMVideo"]];
     
-    self.defaultNameField.text = [prefs stringForKey:@"DefaultStudentName"];
+    self.defaultNameField.text = [prefs stringForKey:@"DefaultUserName"];
     self.defaultGroupField.text = [prefs stringForKey:@"DefaultGroupName"];
     self.configPasswordField.text = [prefs stringForKey:@"ConfigPassword"];
     self.promptForTitle.on = [prefs boolForKey:@"PromptForTitle"];
@@ -73,7 +73,7 @@
     [prefs setFloat:self.pixelsPerMMVideoField.text.floatValue forKey:@"PixelsPerMMVideo"];
     
     [prefs setValue:self.defaultGroupField.text forKey:@"DefaultGroupName"];
-    [prefs setValue:self.defaultNameField.text forKey:@"DefaultStudentName"];
+    [prefs setValue:self.defaultNameField.text forKey:@"DefaultUserName"];
     [prefs setValue:self.configPasswordField.text forKey:@"ConfigPassword"];
     [prefs setBool:self.promptForTitle.on forKey:@"PromptForTitle"];
     
